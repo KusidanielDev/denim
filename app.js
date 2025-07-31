@@ -4,121 +4,175 @@ const products = [
     name: "Classic Denim Jacket",
     price: 180,
     category: "tops",
-    images: [
-      "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1520975698519-59ddc9fda5f5?auto=format&fit=crop&w=800&q=80",
+    media: [
+      {
+        type: "image",
+        src: "./media/image-shorts-1.jpeg",
+      },
+      {
+        type: "image",
+        src: "./media/image-shorts-2.jpeg",
+      },
     ],
     details: `
-                    <ul>
-                        <li>Premium cotton blend fabric for comfort and durability</li>
-                        <li>Handcrafted in Ghana with sustainable practices</li>
-                        <li>Versatile all-season style with lightweight insulation</li>
-                        <li>Signature distressed detailing for authentic vintage look</li>
-                        <li>Available in 4 classic denim washes</li>
-                    </ul>
-                `,
+            <ul>
+              <li>Premium cotton blend fabric for comfort and durability</li>
+              <li>Handcrafted in Ghana with sustainable practices</li>
+              <li>Versatile all-season style with lightweight insulation</li>
+              <li>Signature distressed detailing for authentic vintage look</li>
+              <li>Available in 4 classic denim washes</li>
+            </ul>
+          `,
   },
   {
     id: 2,
-    name: "Shorts Blue",
-    price: 150,
-    category: "bottoms",
-    images: ["./media/image-shorts-1.jpeg", "./media/image-shorts-2.jpeg"],
+    name: "Urban Street Hoodie",
+    price: 230,
+    category: "tops",
+    media: [
+      {
+        type: "image",
+        src: "./media/image-shorts-3.jpeg",
+      },
+      {
+        type: "image",
+        src: "./media/image-trouser-2.jpeg",
+      },
+    ],
     details: `
-                    <ul>
-                        <li>Ultra-soft fleece interior for maximum comfort</li>
-                        <li>Designed with unisex fit for versatile styling</li>
-                        <li>Perfect for cold evenings with thermal insulation</li>
-                        <li>Kangaroo pocket with hidden security compartment</li>
-                        <li>Adjustable drawstring hood for customizable fit</li>
-                    </ul>
-                `,
+            <ul>
+              <li>Ultra-soft fleece interior for maximum comfort</li>
+              <li>Designed with unisex fit for versatile styling</li>
+              <li>Perfect for cold evenings with thermal insulation</li>
+              <li>Kangaroo pocket with hidden security compartment</li>
+              <li>Adjustable drawstring hood for customizable fit</li>
+            </ul>
+          `,
   },
   {
     id: 3,
-    name: "Shorts Blue",
-    price: 150,
-    category: "bottoms",
-    images: ["./media/image-shorts-1.jpeg", "./media/image-shorts-2.jpeg"],
+    name: "Minimalist White Sneakers",
+    price: 320,
+    category: "footwear",
+    media: [
+      {
+        type: "video",
+        src: "./media/video-trouser-1.mp4",
+      },
+      {
+        type: "image",
+        src: "https://images.unsplash.com/photo-1560743641-3914f2c45636?auto=format&fit=crop&w=800&q=80",
+      },
+    ],
     details: `
-                    <ul>
-                        <li>Ultra-soft fleece interior for maximum comfort</li>
-                        <li>Designed with unisex fit for versatile styling</li>
-                        <li>Perfect for cold evenings with thermal insulation</li>
-                        <li>Kangaroo pocket with hidden security compartment</li>
-                        <li>Adjustable drawstring hood for customizable fit</li>
-                    </ul>
-                `,
+            <ul>
+              <li>Durable rubber sole with superior traction pattern</li>
+              <li>Breathable knit upper for all-day comfort</li>
+              <li>Ortholite memory foam insole for support</li>
+              <li>Water-resistant treatment protects against light rain</li>
+              <li>Eco-friendly materials with recycled components</li>
+            </ul>
+          `,
   },
   {
     id: 4,
-    name: "Shorts Blue",
+    name: "Sunset Crop Tee",
     price: 150,
-    category: "bottoms",
-    images: ["./media/image-shorts-3.jpeg", "./media/image-shorts-2.jpeg"],
+    category: "tops",
+    media: [
+      {
+        type: "image",
+        src: "https://images.unsplash.com/photo-1585386959984-a415522c6b09?auto=format&fit=crop&w=800&q=80",
+      },
+      {
+        type: "image",
+        src: "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?auto=format&fit=crop&w=800&q=80",
+      },
+    ],
     details: `
-                    <ul>
-                        <li>Ultra-soft fleece interior for maximum comfort</li>
-                        <li>Designed with unisex fit for versatile styling</li>
-                        <li>Perfect for cold evenings with thermal insulation</li>
-                        <li>Kangaroo pocket with hidden security compartment</li>
-                        <li>Adjustable drawstring hood for customizable fit</li>
-                    </ul>
-                `,
+            <ul>
+              <li>Premium soft-touch cotton for luxurious feel</li>
+              <li>Vibrant sunset-inspired color fade pattern</li>
+              <li>Designed for perfect summer vibes and comfort</li>
+              <li>Tagless design to prevent skin irritation</li>
+              <li>Ethically produced in fair-wage facilities</li>
+            </ul>
+          `,
   },
   {
     id: 5,
     name: "Luxury Leather Crossbody",
     price: 540,
     category: "accessories",
-    images: [
-      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1555529669-e69c6b6ce151?auto=format&fit=crop&w=800&q=80",
+    media: [
+      {
+        type: "image",
+        src: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
+      },
+      {
+        type: "image",
+        src: "https://images.unsplash.com/photo-1555529669-e69c6b6ce151?auto=format&fit=crop&w=800&q=80",
+      },
     ],
     details: `
-                    <ul>
-                        <li>100% genuine Italian leather with natural grain</li>
-                        <li>Adjustable strap with multiple carrying options</li>
-                        <li>Interior zip pocket for valuables organization</li>
-                        <li>RFID-blocking technology for security</li>
-                        <li>Hand-stitched details for premium craftsmanship</li>
-                    </ul>
-                `,
+            <ul>
+              <li>100% genuine Italian leather with natural grain</li>
+              <li>Adjustable strap with multiple carrying options</li>
+              <li>Interior zip pocket for valuables organization</li>
+              <li>RFID-blocking technology for security</li>
+              <li>Hand-stitched details for premium craftsmanship</li>
+            </ul>
+          `,
   },
   {
     id: 6,
-    name: "Shorts Blue",
-    price: 150,
+    name: "Summer Maxi Dress",
+    price: 290,
     category: "dresses",
-    images: ["./media/image-trouser-1.jpeg", "./media/image-trouser-2.jpeg"],
+    media: [
+      {
+        type: "video",
+        src: "https://player.vimeo.com/external/469391188.sd.mp4?s=1f2e0a2b8d0d4d6e5f1e7b2d5c4a3a1a4e9c5a2d&profile_id=139&oauth2_token_id=57447761",
+      },
+      {
+        type: "image",
+        src: "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d71?auto=format&fit=crop&w=800&q=80",
+      },
+    ],
     details: `
-                    <ul>
-                        <li>Ultra-soft fleece interior for maximum comfort</li>
-                        <li>Designed with unisex fit for versatile styling</li>
-                        <li>Perfect for cold evenings with thermal insulation</li>
-                        <li>Kangaroo pocket with hidden security compartment</li>
-                        <li>Adjustable drawstring hood for customizable fit</li>
-                    </ul>
-                `,
+            <ul>
+              <li>Flowy chiffon fabric for elegant movement</li>
+              <li>Adjustable spaghetti straps for perfect fit</li>
+              <li>Hidden side pockets for convenience</li>
+              <li>Designed to flatter all body types</li>
+              <li>Available in 8 vibrant summer colors</li>
+            </ul>
+          `,
   },
   {
     id: 7,
     name: "Slim Fit Jeans",
     price: 210,
     category: "bottoms",
-    images: [
-      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
-      "https://images.unsplash.com/photo-1555529669-e69c6b6ce151?auto=format&fit=crop&w=800&q=80",
+    media: [
+      {
+        type: "image",
+        src: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=800&q=80",
+      },
+      {
+        type: "image",
+        src: "https://images.unsplash.com/photo-1555529669-e69c6b6ce151?auto=format&fit=crop&w=800&q=80",
+      },
     ],
     details: `
-                    <ul>
-                        <li>Premium stretch denim for comfort and flexibility</li>
-                        <li>Slim fit through hip and thigh</li>
-                        <li>Tapered leg opening for modern silhouette</li>
-                        <li>Classic five-pocket styling</li>
-                        <li>Available in dark wash and black</li>
-                    </ul>
-                `,
+            <ul>
+              <li>Premium stretch denim for comfort and flexibility</li>
+              <li>Slim fit through hip and thigh</li>
+              <li>Tapered leg opening for modern silhouette</li>
+              <li>Classic five-pocket styling</li>
+              <li>Available in dark wash and black</li>
+            </ul>
+          `,
   },
 ];
 
@@ -223,11 +277,7 @@ function addToCart(productId) {
       id: product.id,
       name: product.name,
       price: product.price,
-      image: product.images
-        ? product.images[0]
-        : product.media
-        ? product.media.find((m) => m.type === "image").src
-        : "",
+      image: product.media.find((m) => m.type === "image").src,
       quantity: 1,
     });
   }
@@ -400,14 +450,8 @@ function createReel(product) {
   const dotBox = document.createElement("div");
   dotBox.className = "reel-dots";
 
-  // Check if product has media array (for videos) or images array
-  const mediaItems =
-    product.media ||
-    (product.images
-      ? product.images.map((src) => ({ type: "image", src }))
-      : []);
-
-  mediaItems.forEach((media, i) => {
+  // Create media elements
+  product.media.forEach((media, i) => {
     let mediaElement;
 
     if (media.type === "video") {
@@ -416,6 +460,8 @@ function createReel(product) {
       mediaElement.muted = true;
       mediaElement.playsInline = true;
       mediaElement.loop = true;
+      // Add controls for better UX
+      mediaElement.controls = true;
     } else {
       mediaElement = document.createElement("img");
       mediaElement.src = media.src;
@@ -433,15 +479,15 @@ function createReel(product) {
     dotBox.appendChild(dot);
   });
 
-  // Navigation arrows
-  if (mediaItems.length > 1) {
+  // Navigation arrows only if multiple media items
+  if (product.media.length > 1) {
     const leftArrow = document.createElement("div");
     leftArrow.className = "nav-arrow left";
     leftArrow.innerHTML = '<i class="fas fa-chevron-left"></i>';
     leftArrow.addEventListener("click", () => {
       const currentIndex = getCurrentMediaIndex(imageBox);
       const prevIndex =
-        (currentIndex - 1 + mediaItems.length) % mediaItems.length;
+        (currentIndex - 1 + product.media.length) % product.media.length;
       showMedia(imageBox, dotBox, prevIndex);
     });
     imageBox.appendChild(leftArrow);
@@ -451,7 +497,7 @@ function createReel(product) {
     rightArrow.innerHTML = '<i class="fas fa-chevron-right"></i>';
     rightArrow.addEventListener("click", () => {
       const currentIndex = getCurrentMediaIndex(imageBox);
-      const nextIndex = (currentIndex + 1) % mediaItems.length;
+      const nextIndex = (currentIndex + 1) % product.media.length;
       showMedia(imageBox, dotBox, nextIndex);
     });
     imageBox.appendChild(rightArrow);
@@ -466,7 +512,7 @@ function createReel(product) {
   });
 
   imageBox.addEventListener("touchend", (e) => {
-    if (mediaItems.length <= 1) return;
+    if (product.media.length <= 1) return;
 
     touchEndX = e.changedTouches[0].screenX;
     const diff = touchStartX - touchEndX;
@@ -474,12 +520,12 @@ function createReel(product) {
 
     if (diff > 50) {
       // Swiped left
-      const nextIndex = (currentIndex + 1) % mediaItems.length;
+      const nextIndex = (currentIndex + 1) % product.media.length;
       showMedia(imageBox, dotBox, nextIndex);
     } else if (diff < -50) {
       // Swiped right
       const prevIndex =
-        (currentIndex - 1 + mediaItems.length) % mediaItems.length;
+        (currentIndex - 1 + product.media.length) % product.media.length;
       showMedia(imageBox, dotBox, prevIndex);
     }
   });
@@ -547,11 +593,19 @@ function showMedia(container, dotContainer, index) {
   const dots = dotContainer.querySelectorAll(".dot");
 
   mediaElements.forEach((el, i) => {
-    el.classList.toggle("active", i === index);
-    if (i === index && el.tagName === "VIDEO") {
-      el.play();
-    } else if (el.tagName === "VIDEO") {
-      el.pause();
+    if (i === index) {
+      el.classList.add("active");
+      if (el.tagName === "VIDEO") {
+        // Try to play video with error handling
+        el.play().catch((error) => {
+          console.log("Video play failed:", error);
+        });
+      }
+    } else {
+      el.classList.remove("active");
+      if (el.tagName === "VIDEO") {
+        el.pause();
+      }
     }
   });
 
