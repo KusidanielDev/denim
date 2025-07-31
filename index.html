@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Denim Hub - Premium Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="#">Denim Hub</a>
+      </div>
+      <nav class="navbar">
+        <ul class="nav-list">
+          <li>
+            <a href="./html_css/about.html">
+              <i class="fas fa-user-circle custom-icon"></i>
+              <span class="icon-label">Account</span>
+            </a>
+          </li>
+          <li>
+            <a href="./html_css/contact.html">
+              <i class="fas fa-envelope custom-icon"></i>
+              <span class="icon-label">Contact</span>
+            </a>
+          </li>
+          <li class="cart-icon-container">
+            <a href="#" id="cart-icon">
+              <i class="fas fa-shopping-cart custom-icon"></i>
+              <span class="icon-label">Cart</span>
+              <span class="cart-badge">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <p>Premium fashion essentials crafted for the modern lifestyle</p>
+      <button class="filter-btn" id="filter-btn">
+        <i class="fas fa-filter"></i> Filter
+      </button>
+      <div class="filter-dropdown" id="filter-dropdown">
+        <h4>Product Categories</h4>
+        <ul class="filter-list">
+          <li class="active" data-category="all">All Products</li>
+          <li data-category="tops">Tops</li>
+          <li data-category="bottoms">Bottoms</li>
+          <li data-category="dresses">Dresses</li>
+          <li data-category="accessories">Accessories</li>
+          <li data-category="footwear">Footwear</li>
+        </ul>
+      </div>
+    </section>
+
+    <main>
+      <section class="reel-app">
+        <div id="reel-main"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 The Denim Hub. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="./html_css/about.html#shipping">Shipping Policy</a>
+        <a href="./html_css/about.html#returns">Returns & Exchanges</a>
+      </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-modal" id="cart-modal">
+      <div class="cart-header">
+        <h3>Your Shopping Cart</h3>
+        <button class="close-cart" id="close-cart">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="cart-items" id="cart-items">
+        <div class="empty-cart">
+          <i
+            class="fas fa-shopping-cart"
+            style="font-size: 3rem; margin-bottom: 15px"
+          ></i>
+          <p>Your cart is empty</p>
+        </div>
+      </div>
+      <div class="cart-summary">
+        <div class="cart-total">
+          <span>Total:</span>
+          <span id="cart-total">₵0</span>
+        </div>
+        <button class="checkout-btn" id="checkout-btn">
+          <i class="fab fa-whatsapp"></i> Checkout via WhatsApp
+        </button>
+      </div>
+    </div>
+
+    <!-- Notification Container -->
+    <div class="notification-container" id="notification-container"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
